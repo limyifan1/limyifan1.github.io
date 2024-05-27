@@ -18,7 +18,7 @@ function App() {
         setCurrencyFrom,
       }}
     >
-      <h1>Currency Converter Title</h1>
+      <h1>Currency Converter</h1>
       <CurrencyDropdown />
     </MyContext.Provider>
   );
