@@ -44,7 +44,7 @@ function CurrencyConverter() {
     <div className="currencyConverterContainer">
       <input
         value={amount}
-        placeholder="Enter amount"
+        placeholder="Enter amount here"
         className="converter-input"
         onChange={handleAmountChange}
       ></input>
