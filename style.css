@@ -78,6 +78,13 @@ nav a:hover {
     color: var(--primary-color);
 }
 
+#content blockquote {
+    border-left: 4px solid var(--border-color);
+    margin: 1.5rem 0;
+    padding: 0.25rem 1.5rem;
+    color: var(--secondary-color);
+}
+
 footer {
     text-align: center;
     margin-top: 4rem;
