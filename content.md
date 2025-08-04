@@ -3,8 +3,5 @@ Hi, I'm a software engineer based in Singapore.
 ## Recent Posts
 Stay up to date with my latest thoughts.
 
-## Projects
-Coming soon...
-
-## Blog
-Check out my thoughts and writings on my new [blog page](./blog/).
+## Readings
+I enjoy reading about technology and other topics. You can find a list of my weekly readings [here](./readings.html).
