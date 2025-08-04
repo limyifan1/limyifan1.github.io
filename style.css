@@ -92,3 +92,22 @@ footer {
     border-top: 1px solid var(--border-color);
     color: var(--secondary-color);
 }
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+
+.permalink {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+}
+
+.permalink:hover {
+  text-decoration: underline;
+}
