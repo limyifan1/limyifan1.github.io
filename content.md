@@ -1,6 +1,6 @@
 Hi, I'm a software engineer based in Singapore.
 
-## Recent Posts
+## All Posts
 Stay up to date with my latest thoughts.
 
 ## Readings

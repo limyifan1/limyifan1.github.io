@@ -19,7 +19,6 @@
         <nav>
           <a href="readings.html">Readings</a>
           <a href="#">Projects</a>
-          <a href="blog/">Blog</a>
         </nav>
       </header>
 
@@ -45,14 +44,14 @@
           const contentDiv = document.getElementById("content");
           contentDiv.innerHTML = marked.parse(markdown);
 
-          const recentPostsHeading = Array.from(contentDiv.getElementsByTagName("h2")).find(h2 => h2.textContent === "Recent Posts");
+          const allPostsHeading = Array.from(contentDiv.getElementsByTagName("h2")).find(h2 => h2.textContent === "All Posts");
 
-          if (recentPostsHeading) {
+          if (allPostsHeading) {
             const postList = document.createElement("div");
             postList.classList.add("post-list");
 
             const sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
-            const recentPosts = sortedPosts.slice(0, 5);
+            const recentPosts = sortedPosts;
 
             recentPosts.forEach(post => {
               const postElement = document.createElement("div");
@@ -72,14 +71,7 @@
               postList.appendChild(postElement);
             });
 
-            const fullListLink = document.createElement("a");
-            fullListLink.href = "blog/";
-            fullListLink.textContent = "See all posts";
-            fullListLink.style.marginTop = "1em";
-            fullListLink.style.display = "inline-block";
-            postList.appendChild(fullListLink);
-
-            recentPostsHeading.parentNode.insertBefore(postList, recentPostsHeading.nextSibling);
+            allPostsHeading.parentNode.insertBefore(postList, allPostsHeading.nextSibling);
           }
         });
     </script>
