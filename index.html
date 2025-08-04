@@ -47,31 +47,49 @@
           const allPostsHeading = Array.from(contentDiv.getElementsByTagName("h2")).find(h2 => h2.textContent === "All Posts");
 
           if (allPostsHeading) {
-            const postList = document.createElement("div");
-            postList.classList.add("post-list");
+            const postContainer = document.createElement("div");
+            postContainer.classList.add("post-container");
 
             const sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
-            const recentPosts = sortedPosts;
 
-            recentPosts.forEach(post => {
-              const postElement = document.createElement("div");
-              postElement.classList.add("post-item");
-
-              const postLink = document.createElement("a");
-              const postName = post.file.replace(".md", "");
-              postLink.href = `blog/post.html?p=${postName}`;
-              postLink.textContent = post.title;
-
-              const postDate = document.createElement("span");
-              postDate.classList.add("post-date");
-              postDate.textContent = post.date;
-
-              postElement.appendChild(postLink);
-              postElement.appendChild(postDate);
-              postList.appendChild(postElement);
+            const fetchPromises = sortedPosts.map(post => {
+              return fetch(`blog/posts/${post.file}`)
+                .then(response => response.text())
+                .then(markdown => ({ ...post, markdown }));
             });
 
-            allPostsHeading.parentNode.insertBefore(postList, allPostsHeading.nextSibling);
+            Promise.all(fetchPromises).then(postsWithContent => {
+              postsWithContent.forEach(post => {
+                const postArticle = document.createElement("article");
+                postArticle.classList.add("post");
+
+                const postTitle = document.createElement("h2");
+                postTitle.textContent = post.title;
+
+                const postDate = document.createElement("span");
+                postDate.classList.add("post-date");
+                postDate.textContent = post.date;
+
+                const permalink = document.createElement("a");
+                permalink.classList.add("permalink");
+                const postName = post.file.replace(".md", "");
+                permalink.href = `blog/post.html?p=${postName}`;
+                permalink.textContent = "Permalink";
+
+                const postBody = document.createElement("div");
+                postBody.classList.add("post-body");
+                postBody.innerHTML = marked.parse(post.markdown);
+
+                postArticle.appendChild(postTitle);
+                postArticle.appendChild(postDate);
+                postArticle.appendChild(permalink);
+                postArticle.appendChild(postBody);
+
+                postContainer.appendChild(postArticle);
+              });
+
+              allPostsHeading.parentNode.insertBefore(postContainer, allPostsHeading.nextSibling);
+            });
           }
         });
     </script>
