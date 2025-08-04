@@ -17,7 +17,7 @@
       <header>
         <h1>Yi Fan Lim</h1>
         <nav>
-          <a href="#">Readings</a>
+          <a href="readings.html">Readings</a>
           <a href="#">Projects</a>
           <a href="blog/">Blog</a>
         </nav>
@@ -37,11 +37,50 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="blog/posts.js"></script>
     <script>
       fetch("content.md")
         .then((response) => response.text())
         .then((markdown) => {
-          document.getElementById("content").innerHTML = marked.parse(markdown);
+          const contentDiv = document.getElementById("content");
+          contentDiv.innerHTML = marked.parse(markdown);
+
+          const recentPostsHeading = Array.from(contentDiv.getElementsByTagName("h2")).find(h2 => h2.textContent === "Recent Posts");
+
+          if (recentPostsHeading) {
+            const postList = document.createElement("div");
+            postList.classList.add("post-list");
+
+            const sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+            const recentPosts = sortedPosts.slice(0, 5);
+
+            recentPosts.forEach(post => {
+              const postElement = document.createElement("div");
+              postElement.classList.add("post-item");
+
+              const postLink = document.createElement("a");
+              const postName = post.file.replace(".md", "");
+              postLink.href = `blog/post.html?p=${postName}`;
+              postLink.textContent = post.title;
+
+              const postDate = document.createElement("span");
+              postDate.classList.add("post-date");
+              postDate.textContent = post.date;
+
+              postElement.appendChild(postLink);
+              postElement.appendChild(postDate);
+              postList.appendChild(postElement);
+            });
+
+            const fullListLink = document.createElement("a");
+            fullListLink.href = "blog/";
+            fullListLink.textContent = "See all posts";
+            fullListLink.style.marginTop = "1em";
+            fullListLink.style.display = "inline-block";
+            postList.appendChild(fullListLink);
+
+            recentPostsHeading.parentNode.insertBefore(postList, recentPostsHeading.nextSibling);
+          }
         });
     </script>
   </body>
