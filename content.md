@@ -1,1 +1,1 @@
-Hi, I'm a software engineer based in Singapore. I enjoy reading about technology and other topics, and you can find a list of my weekly readings [here](./readings.html).
+Hi, I'm a software engineer based in Singapore. You can find a list of my weekly readings [here](./readings.html). You can find me on [GitHub](https://github.com/limyifan1) and [LinkedIn](https://www.linkedin.com/in/yi-fan-lim).
