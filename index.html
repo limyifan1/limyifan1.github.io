@@ -17,9 +17,7 @@
       <header>
         <h1>Yi Fan Lim</h1>
         <nav>
-          <a href="#">Readings</a>
-          <a href="#">Projects</a>
-          <a href="#">Blog</a>
+          <a href="readings.html">Readings</a>
         </nav>
       </header>
 
@@ -37,11 +35,61 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="blog/posts.js"></script>
     <script>
       fetch("content.md")
         .then((response) => response.text())
         .then((markdown) => {
-          document.getElementById("content").innerHTML = marked.parse(markdown);
+          const contentDiv = document.getElementById("content");
+          contentDiv.innerHTML = marked.parse(markdown);
+
+          const postContainer = document.createElement("div");
+          postContainer.classList.add("post-container");
+
+          const sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+          const fetchPromises = sortedPosts.map(post => {
+            return fetch(`blog/posts/${post.file}`)
+              .then(response => response.text())
+              .then(markdown => ({ ...post, markdown }));
+          });
+
+          Promise.all(fetchPromises).then(postsWithContent => {
+            postsWithContent.forEach(post => {
+              const postArticle = document.createElement("article");
+              postArticle.classList.add("post");
+
+              const postTitle = document.createElement("h2");
+              postTitle.textContent = post.title;
+
+              const postDate = document.createElement("span");
+              postDate.classList.add("post-date");
+              postDate.textContent = post.date;
+
+              const permalink = document.createElement("a");
+              permalink.classList.add("permalink");
+              const postName = post.file.replace(".md", "");
+              permalink.href = `blog/post.html?p=${postName}`;
+              permalink.textContent = "Permalink";
+
+              const postBody = document.createElement("div");
+              postBody.classList.add("post-body");
+              postBody.innerHTML = marked.parse(post.markdown);
+
+                const metaDiv = document.createElement("div");
+                metaDiv.classList.add("post-meta");
+                metaDiv.appendChild(postDate);
+                metaDiv.appendChild(permalink);
+
+              postArticle.appendChild(postTitle);
+                postArticle.appendChild(metaDiv);
+              postArticle.appendChild(postBody);
+
+              postContainer.appendChild(postArticle);
+            });
+
+            contentDiv.appendChild(postContainer);
+          });
         });
     </script>
   </body>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Readings | Yi Fan Lim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><a href="index.html" style="text-decoration: none; color: inherit;">Yi Fan Lim</a></h1>
+        <nav>
+          <a href="readings.html">Readings</a>
+        </nav>
+      </header>
+
+      <main>
+        <div id="content"></div>
+      </main>
+
+      <footer>
+        <p>
+          &copy; 2025 Yi Fan Lim. You can find me on
+          <a href="https://github.com/limyifan1">GitHub</a> &
+          <a href="https://www.linkedin.com/in/yi-fan-lim/">LinkedIn</a>.
+        </p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      fetch("readings.md")
+        .then((response) => response.text())
+        .then((markdown) => {
+          document.getElementById("content").innerHTML = marked.parse(markdown);
+        });
+    </script>
+  </body>
+</html>
