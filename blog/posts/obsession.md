@@ -12,14 +12,14 @@ There is no shortage of advice from public figures espousing the importance of o
 
 But what is it about obsession that lead to outsized success? Here are some of my hypotheses. 
 
-## Subconscious
+### Subconscious
 The human brain works both consciously and subconsciously. Obsession allows a thought to continue working in the background. This "background processing" provide more opportunity for a stimulus to trigger a novel connection. 
 
-## Quality
+### Quality
 Obsession leads to repeated iteration and more attempts at getting things right. When you get more shots at polishing an idea/product, you fill in more details and trim the rough edges. 
 
-## Magnitude
+### Magnitude
 More input is a natural extension to at least more outcomes. Obsession leads an individual to perform tedious tasks that others might avoid. 
 
-## Compounding
+### Compounding
 Effort input and output is not simply linear. With more thought, compounding can occur via connections between ideas and establishment of intuition. 
