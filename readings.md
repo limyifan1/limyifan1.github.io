@@ -2,7 +2,8 @@
 
 ### Week of August 11, 2025
 
-* [Uber is reading itself for the driverless age - again](https://economist.com/business/2025/08/07/uber-is-readying-itself-for-the-driverless-age-again) - Uber previously sunk $3bn into driverless cars but shut it due to safety risks. Current strategy to partner with self-driving companies. But companies might gain enough brand recognition to have their own app. 
+* [Uber is reading itself for the driverless age - again](https://economist.com/business/2025/08/07/uber-is-readying-itself-for-the-driverless-age-again) - Uber previously sunk $3bn into driverless cars but shut it due to safety risks. Current strategy to partner with self-driving companies. But companies might gain enough brand recognition to have their own app.
+* [unsolicited advice on doing well in AI hackathons](https://x.com/swyx/status/1954780181815763146) - remove doubts of originality, demo live, generalize beyond narrow use case, use humor, good-looking frontends matter, app layer ideas win, novelty wins, judges want inspiration and entertainment
 
 ### Week of August 4, 2025
 
