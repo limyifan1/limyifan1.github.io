@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predictions | Yi Fan Lim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><a href="index.html" style="text-decoration: none; color: inherit;">Yi Fan Lim</a></h1>
+        <nav>
+          <a href="readings.html">Readings</a>
+          <a href="predictions.html">Predictions</a>
+        </nav>
+      </header>
+
+      <main>
+        <div id="content">
+            <h2>Predictions</h2>
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Yi Fan Lim</p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="predictions/posts.js"></script>
+    <script>
+        const contentDiv = document.getElementById("content");
+        const postContainer = document.createElement("div");
+        postContainer.classList.add("post-container");
+
+        const sortedPosts = posts.sort(
+        (a, b) => new Date(b.date) - new Date(a.date)
+        );
+
+        const fetchPromises = sortedPosts.map((post) => {
+        return fetch(`predictions/posts/${post.file}`)
+            .then((response) => response.text())
+            .then((markdown) => ({ ...post, markdown }));
+        });
+
+        Promise.all(fetchPromises).then((postsWithContent) => {
+        postsWithContent.forEach((post) => {
+            const postArticle = document.createElement("article");
+            postArticle.classList.add("post");
+
+            const postTitle = document.createElement("h2");
+            postTitle.textContent = post.title;
+
+            const postDate = document.createElement("span");
+            postDate.classList.add("post-date");
+            postDate.textContent = post.date;
+
+            const permalink = document.createElement("a");
+            permalink.classList.add("permalink");
+            const postName = post.file.replace(".md", "");
+            permalink.href = `predictions/post.html?p=${postName}`;
+            permalink.textContent = "Permalink";
+
+            const postBody = document.createElement("div");
+            postBody.classList.add("post-body");
+            postBody.innerHTML = marked.parse(post.markdown);
+
+            const metaDiv = document.createElement("div");
+            metaDiv.classList.add("post-meta");
+            metaDiv.appendChild(postDate);
+            metaDiv.appendChild(permalink);
+
+            postArticle.appendChild(postTitle);
+            postArticle.appendChild(metaDiv);
+            postArticle.appendChild(postBody);
+
+            postContainer.appendChild(postArticle);
+        });
+
+        contentDiv.appendChild(postContainer);
+        });
+    </script>
+  </body>
+</html>
