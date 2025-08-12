@@ -1,7 +1,7 @@
 const posts = [
   {
-    file: "agi-is-far.md",
-    title: "AGI is still far away",
-    date: "2025-08-12",
+    file: "donald_trump_2025_south_korea.md",
+    title: "Will Dondla Trump visit South Korea in 2025",
+    date: "2025-08-13",
   },
 ];
