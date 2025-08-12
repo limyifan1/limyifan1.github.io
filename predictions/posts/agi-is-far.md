@@ -1,0 +1,1 @@
+This is a prediction that AGI is still far away. Current LLMs are impressive, but they are not intelligent in the way humans are. They are very good at pattern matching and text generation, but they lack true understanding and reasoning. We will not see AGI in the next 5 years.

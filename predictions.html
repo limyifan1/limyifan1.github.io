@@ -23,24 +23,68 @@
       </header>
 
       <main>
-        <div id="content"></div>
+        <div id="content">
+            <h2>Predictions</h2>
+        </div>
       </main>
 
       <footer>
-        <p>
-          &copy; 2025 Yi Fan Lim. You can find me on
-          <a href="https://github.com/limyifan1">GitHub</a> &
-          <a href="https://www.linkedin.com/in/yi-fan-lim/">LinkedIn</a>.
-        </p>
+        <p>&copy; 2025 Yi Fan Lim</p>
       </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="predictions/posts.js"></script>
     <script>
-      fetch("predictions.md")
-        .then((response) => response.text())
-        .then((markdown) => {
-          document.getElementById("content").innerHTML = marked.parse(markdown);
+        const contentDiv = document.getElementById("content");
+        const postContainer = document.createElement("div");
+        postContainer.classList.add("post-container");
+
+        const sortedPosts = posts.sort(
+        (a, b) => new Date(b.date) - new Date(a.date)
+        );
+
+        const fetchPromises = sortedPosts.map((post) => {
+        return fetch(`predictions/posts/${post.file}`)
+            .then((response) => response.text())
+            .then((markdown) => ({ ...post, markdown }));
+        });
+
+        Promise.all(fetchPromises).then((postsWithContent) => {
+        postsWithContent.forEach((post) => {
+            const postArticle = document.createElement("article");
+            postArticle.classList.add("post");
+
+            const postTitle = document.createElement("h2");
+            postTitle.textContent = post.title;
+
+            const postDate = document.createElement("span");
+            postDate.classList.add("post-date");
+            postDate.textContent = post.date;
+
+            const permalink = document.createElement("a");
+            permalink.classList.add("permalink");
+            const postName = post.file.replace(".md", "");
+            permalink.href = `predictions/post.html?p=${postName}`;
+            permalink.textContent = "Permalink";
+
+            const postBody = document.createElement("div");
+            postBody.classList.add("post-body");
+            postBody.innerHTML = marked.parse(post.markdown);
+
+            const metaDiv = document.createElement("div");
+            metaDiv.classList.add("post-meta");
+            metaDiv.appendChild(postDate);
+            metaDiv.appendChild(permalink);
+
+            postArticle.appendChild(postTitle);
+            postArticle.appendChild(metaDiv);
+            postArticle.appendChild(postBody);
+
+            postContainer.appendChild(postArticle);
+        });
+
+        contentDiv.appendChild(postContainer);
         });
     </script>
   </body>
