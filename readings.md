@@ -1,4 +1,11 @@
 ## Weekly Readings
+
+### Week of August 11, 2025
+
+* [Uber is reading itself for the driverless age - again](Uber is readying itself for the driverless age—again
+https://economist.com/business/2025/08/07/uber-is-readying-itself-for-the-driverless-age-again
+from The Economist) - Uber previously sunk $3bn into driverless cars but shut it due to safety risks. Current strategy to partner with self-driving companies. But companies might gain enough brand recognition to have their own app. 
+
 ### Week of August 4, 2025
 
 * [Agents are not tools](https://discuss.google.dev/t/agents-are-not-tools/192812) - A tool is something that can be asked to take an action, can be awaited for completion of the action, and can report errors. The agent is not a tool, it is a problem solver. The key difference between agent flow and tool flow is that the action is not guaranteed to be completed upon return.
