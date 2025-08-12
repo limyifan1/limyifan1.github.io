@@ -2,8 +2,7 @@
 
 ### Week of August 11, 2025
 
-* [Uber is reading itself for the driverless age - again](https://economist.com/business/2025/08/07/uber-is-readying-itself-for-the-driverless-age-again
-from The Economist) - Uber previously sunk $3bn into driverless cars but shut it due to safety risks. Current strategy to partner with self-driving companies. But companies might gain enough brand recognition to have their own app. 
+* [Uber is reading itself for the driverless age - again](https://economist.com/business/2025/08/07/uber-is-readying-itself-for-the-driverless-age-again) - Uber previously sunk $3bn into driverless cars but shut it due to safety risks. Current strategy to partner with self-driving companies. But companies might gain enough brand recognition to have their own app. 
 
 ### Week of August 4, 2025
 
