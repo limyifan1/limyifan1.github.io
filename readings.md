@@ -3,7 +3,9 @@
 ### Week of August 11, 2025
 
 * [Uber is reading itself for the driverless age - again](https://economist.com/business/2025/08/07/uber-is-readying-itself-for-the-driverless-age-again) - Uber previously sunk $3bn into driverless cars but shut it due to safety risks. Current strategy to partner with self-driving companies. But companies might gain enough brand recognition to have their own app.
-* [unsolicited advice on doing well in AI hackathons](https://x.com/swyx/status/1954780181815763146) - remove doubts of originality, demo live, generalize beyond narrow use case, use humor, good-looking frontends matter, app layer ideas win, novelty wins, judges want inspiration and entertainment
+* [unsolicited advice on doing well in AI hackathons](https://x.com/swyx/status/1954780181815763146) - remove doubts of originality, demo live, generalize beyond narrow use case, use humor, good-looking frontends matter, app layer ideas win, novelty wins, judges want inspiration and entertainment.
+* [golpoai](https://video.golpoai.com/) - YC startup for creating whiteboard drawings. Pretty engaging video, though first impression is narrow use case. 
+* [FFmpeg 8.0 adds Whisper support](https://code.ffmpeg.org/FFmpeg/FFmpeg/commit/13ce36fef98a3f4e6d8360c24d6b8434cbb8869b) - Allows transcription of videos. Whisper is a versatile and powerful ASR model developed and open-sourced by OpenAI in September 2022.
 
 ### Week of August 4, 2025
 
