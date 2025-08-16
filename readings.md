@@ -7,6 +7,7 @@
 * [golpoai](https://video.golpoai.com/) - YC startup for creating whiteboard drawings. Pretty engaging video, though first impression is narrow use case. 
 * [FFmpeg 8.0 adds Whisper support](https://code.ffmpeg.org/FFmpeg/FFmpeg/commit/13ce36fef98a3f4e6d8360c24d6b8434cbb8869b) - Allows transcription of videos. Whisper is a versatile and powerful ASR model developed and open-sourced by OpenAI in September 2022.
 * [Introducing Gemma 3 270M: The compact model for hyper-efficient AI](https://developers.googleblog.com/en/introducing-gemma-3-270m/) - Super small open source model that is meant for fine-tuned custom use cases. 
+* [Persona Vectors](https://www.anthropic.com/research/persona-vectors) - Personalities traits like evil, sycophancy, and hallucination can be extracted as persona vectors in models. This can be used to monitor persona shifts in deployment, mitigate shifts during training (post-training steering lowers intelligence, in-training preventative steering acts like a vaccine), flag problematic training data. 
 
 ### Week of August 4, 2025
 
