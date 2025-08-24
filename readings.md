@@ -1,5 +1,9 @@
 ## Weekly Readings
 
+### Week of August 18, 2025
+
+* [Turning Claude Code Into My Best Design Partner](https://betweentheprompts.com/design-partner) - ask Claude to write a design doc first then iterate. This helps with collaboration, having a source of truth beyond the chat conv, and forcing thought before implementation. 
+
 ### Week of August 11, 2025
 
 * [Uber is reading itself for the driverless age - again](https://economist.com/business/2025/08/07/uber-is-readying-itself-for-the-driverless-age-again) - Uber previously sunk $3bn into driverless cars but shut it due to safety risks. Current strategy to partner with self-driving companies. But companies might gain enough brand recognition to have their own app.
