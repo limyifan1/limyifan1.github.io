@@ -1,5 +1,8 @@
 ## Weekly Readings
 
+### Week of August 25, 2025
+* [Everything I know about good API design](https://www.seangoedecke.com/good-api-design/) - Do not break userspace, versioning is helpful but should be last resort, APIs often reflect quality of the product, use long-lived API keys instead of oAuth for simplicity, use idempotency keys for important functions, use rate limits, use cursor-based pagination, make expensive fields optional. 
+
 ### Week of August 18, 2025
 
 * [Turning Claude Code Into My Best Design Partner](https://betweentheprompts.com/design-partner) - ask Claude to write a design doc first then iterate. This helps with collaboration, having a source of truth beyond the chat conv, and forcing thought before implementation. 
