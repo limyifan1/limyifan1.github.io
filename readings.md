@@ -1,5 +1,8 @@
 ## Weekly Readings
 
+### Week of September 1, 2025
+* [TPU Deep Dive](https://henryhmko.github.io/posts/tpu/tpu.html) - TPUs depend on systolic arrays + pipelining, Ahead of Time (AoT) compilation, and assumption operations can map well to systolic arrays. Arithmetic takes up way less energy than memory access and control.
+
 ### Week of August 25, 2025
 * [Everything I know about good API design](https://www.seangoedecke.com/good-api-design/) - Do not break userspace, versioning is helpful but should be last resort, APIs often reflect quality of the product, use long-lived API keys instead of oAuth for simplicity, use idempotency keys for important functions, use rate limits, use cursor-based pagination, make expensive fields optional.
 * [Cognitive Load is what matters](https://github.com/zakirullin/cognitive-load) - Good code is all about reducing cognitive load. Use deep modules (not shallow), be framework-agnostic, reduce layers of abstraction, don't mistake familiarity for similarity
