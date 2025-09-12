@@ -1,5 +1,8 @@
 ## Weekly Readings
 
+### Week of September 8, 2025
+* [Claude Memory: A Different Philosophy](https://www.shloked.com/writing/claude-memory) - Claude starts with no memory of you, invoking only when explicitly called. ChatGPT memory loads automatically. 
+
 ### Week of September 1, 2025
 * [TPU Deep Dive](https://henryhmko.github.io/posts/tpu/tpu.html) - TPUs depend on systolic arrays + pipelining, Ahead of Time (AoT) compilation, and assumption operations can map well to systolic arrays. Arithmetic takes up way less energy than memory access and control.
 
