@@ -3,7 +3,8 @@
 ### Week of September 21, 2025
 * [How to stop AI’s “lethal trifecta”](https://www.economist.com/leaders/2025/09/25/how-to-stop-ais-lethal-trifecta) - Building AI apps are more similar to conventional engineers, where uncertainty must be factored in. Overbuilding might be necessary.
 * [Simon Willison's Response to How to stop AI’s “lethal trifecta”](https://simonwillison.net/2025/Sep/26/how-to-stop-ais-lethal-trifecta/) - The article's approach to security is not appropriate. The solution is not overbuilding. It is to prevent even the 1% chance of security vulnerability but cutting of trifecta. The common way is preventing LLMs from trasmitting information back to attacker.
-* [I think “agent” may finally have a widely enough agreed upon definition to be useful jargon now](https://simonwillison.net/2025/Sep/18/agents/) - An LLM agent runs tools in a loop to achieve a goal. Humans differentiate themselves from agents by having accountability. 
+* [I think “agent” may finally have a widely enough agreed upon definition to be useful jargon now](https://simonwillison.net/2025/Sep/18/agents/) - An LLM agent runs tools in a loop to achieve a goal. Humans differentiate themselves from agents by having accountability.
+* [Note To My Younger Self](https://open.substack.com/pub/yewjin/p/note-to-my-younger-self) - Love the work (not the ladder), master the art of why, build real relationships with strategic kindness, bring joy to work, communicate like your career depends on it, systematically document your impact, turn feedback into fuel, your boss matters more than you think. 
 
 ### Week of September 8, 2025
 * [Claude Memory: A Different Philosophy](https://www.shloked.com/writing/claude-memory) - Claude starts with no memory of you, invoking only when explicitly called. ChatGPT memory loads automatically. 
