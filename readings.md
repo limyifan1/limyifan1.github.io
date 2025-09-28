@@ -1,4 +1,5 @@
 ### Week of 28 September 2025
+* [Failing to Understand the Exponential, Again](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - Test
 * [Failing to Understand the Exponential, Again](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - A
 
 ### Week of September 21, 2025
