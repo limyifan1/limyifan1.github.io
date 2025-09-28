@@ -1,4 +1,5 @@
 ### Week of September 22, 2025
+* [https://newsletter.pragmaticengineer.com/p/google](https://newsletter.pragmaticengineer.com/p/google) - Good summary of Google engineering culture and structure
 * [The YouTube Tip of the Google Spear – Stratechery by Ben Thompson](https://stratechery.com/2025/the-youtube-tip-of-the-google-spear/) - YouTube is an underappreciated part of Google especially when video is much more appealing to users than text. Using AI, any item on YouTube can be  monetizable. Power of TikTok is the realization that user's deemed interest in friend's content is much less interesting than the world's content in a feed.  
 * [Giving Advice](https://www.julian.ac/blog/2025/09/27/giving-advice/) - Good advice is often contentious. Otherwise it's common sense. 
 * [Video models are zero-shot learners and reasoners](https://simonwillison.net/2025/Sep/27/video-models-are-zero-shot-learners-and-reasoners/) - Video models follow scaling laws and develop understanding beyond what is is trained for. It can also 'reason' using chain of frames. 
