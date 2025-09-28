@@ -1,14 +1,12 @@
 ### Week of September 29, 2025
-* [https://www.seangoedecke.com/taste/](https://www.seangoedecke.com/taste/) - Taste is the ability to adopt the set of engineering values that fit your current project. Most bad taste come from inflexibility. 
+* [What is "good taste" in software engineering?](https://www.seangoedecke.com/taste/) - Taste is the ability to adopt the set of engineering values that fit your current project. Most bad taste come from inflexibility. 
 
 ### Week of September 22, 2025
-* [https://newsletter.pragmaticengineer.com/p/google](https://newsletter.pragmaticengineer.com/p/google) - Good summary of Google engineering culture and structure
+* [Inside Google's Engineering Culture: Part 1](https://newsletter.pragmaticengineer.com/p/google) - Good summary of Google engineering culture and structure
 * [The YouTube Tip of the Google Spear – Stratechery by Ben Thompson](https://stratechery.com/2025/the-youtube-tip-of-the-google-spear/) - YouTube is an underappreciated part of Google especially when video is much more appealing to users than text. Using AI, any item on YouTube can be  monetizable. Power of TikTok is the realization that user's deemed interest in friend's content is much less interesting than the world's content in a feed.  
 * [Giving Advice](https://www.julian.ac/blog/2025/09/27/giving-advice/) - Good advice is often contentious. Otherwise it's common sense. 
 * [Video models are zero-shot learners and reasoners](https://simonwillison.net/2025/Sep/27/video-models-are-zero-shot-learners-and-reasoners/) - Video models follow scaling laws and develop understanding beyond what is is trained for. It can also 'reason' using chain of frames. 
-* [
-    Failing to Understand the Exponential, Again
-  ](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - LLMs is trending towards doing longer work, nearing expert levels. This trend is often ignored. 
+* [Failing to Understand the Exponential, Again](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - LLMs is trending towards doing longer work, nearing expert levels. This trend is often ignored. 
 * [How to stop AI’s “lethal trifecta”](https://www.economist.com/leaders/2025/09/25/how-to-stop-ais-lethal-trifecta) - Building AI apps are more similar to conventional engineers, where uncertainty must be factored in. Overbuilding might be necessary.
 * [Simon Willison's Response to How to stop AI’s “lethal trifecta”](https://simonwillison.net/2025/Sep/26/how-to-stop-ais-lethal-trifecta/) - The article's approach to security is not appropriate. The solution is not overbuilding. It is to prevent even the 1% chance of security vulnerability but cutting of trifecta. The common way is preventing LLMs from trasmitting information back to attacker.
 * [I think “agent” may finally have a widely enough agreed upon definition to be useful jargon now](https://simonwillison.net/2025/Sep/18/agents/) - An LLM agent runs tools in a loop to achieve a goal. Humans differentiate themselves from agents by having accountability.
