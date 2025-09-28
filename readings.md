@@ -1,3 +1,6 @@
+### Week of 22 Sep 2025 at 3:08 PM
+* [Failing to Understand the Exponential, Again](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - Test
+
 ### Week of 22 Sep 2025 at 3:07 PM
 * [Failing to Understand the Exponential, Again](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - Testing
 
