@@ -1,4 +1,5 @@
 ### Week of September 22, 2025
+* [Giving Advice](https://www.julian.ac/blog/2025/09/27/giving-advice/) - Good advice is often contentious. Otherwise it's common sense. 
 * [Video models are zero-shot learners and reasoners](https://simonwillison.net/2025/Sep/27/video-models-are-zero-shot-learners-and-reasoners/) - Video models follow scaling laws and develop understanding beyond what is is trained for. It can also 'reason' using chain of frames. 
 * [
     Failing to Understand the Exponential, Again
