@@ -1,3 +1,6 @@
+### Week of September 29, 2025
+* [https://www.seangoedecke.com/taste/](https://www.seangoedecke.com/taste/) - Taste is the ability to adopt the set of engineering values that fit your current project. Most bad taste come from inflexibility. 
+
 ### Week of September 22, 2025
 * [https://newsletter.pragmaticengineer.com/p/google](https://newsletter.pragmaticengineer.com/p/google) - Good summary of Google engineering culture and structure
 * [The YouTube Tip of the Google Spear – Stratechery by Ben Thompson](https://stratechery.com/2025/the-youtube-tip-of-the-google-spear/) - YouTube is an underappreciated part of Google especially when video is much more appealing to users than text. Using AI, any item on YouTube can be  monetizable. Power of TikTok is the realization that user's deemed interest in friend's content is much less interesting than the world's content in a feed.  
