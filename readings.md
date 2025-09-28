@@ -1,1 +1,50 @@
 ### Week of 28 September 2025
+* [Failing to Understand the Exponential, Again](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - A
+
+### Week of September 21, 2025
+* [How to stop AI’s “lethal trifecta”](https://www.economist.com/leaders/2025/09/25/how-to-stop-ais-lethal-trifecta) - Building AI apps are more similar to conventional engineers, where uncertainty must be factored in. Overbuilding might be necessary.
+* [Simon Willison's Response to How to stop AI’s “lethal trifecta”](https://simonwillison.net/2025/Sep/26/how-to-stop-ais-lethal-trifecta/) - The article's approach to security is not appropriate. The solution is not overbuilding. It is to prevent even the 1% chance of security vulnerability but cutting of trifecta. The common way is preventing LLMs from trasmitting information back to attacker.
+* [I think “agent” may finally have a widely enough agreed upon definition to be useful jargon now](https://simonwillison.net/2025/Sep/18/agents/) - An LLM agent runs tools in a loop to achieve a goal. Humans differentiate themselves from agents by having accountability.
+* [Note To My Younger Self](https://open.substack.com/pub/yewjin/p/note-to-my-younger-self) - Love the work (not the ladder), master the art of why, build real relationships with strategic kindness, bring joy to work, communicate like your career depends on it, systematically document your impact, turn feedback into fuel, your boss matters more than you think. 
+
+### Week of September 8, 2025
+* [Claude Memory: A Different Philosophy](https://www.shloked.com/writing/claude-memory) - Claude starts with no memory of you, invoking only when explicitly called. ChatGPT memory loads automatically. 
+
+### Week of September 1, 2025
+* [TPU Deep Dive](https://henryhmko.github.io/posts/tpu/tpu.html) - TPUs depend on systolic arrays + pipelining, Ahead of Time (AoT) compilation, and assumption operations can map well to systolic arrays. Arithmetic takes up way less energy than memory access and control.
+
+### Week of August 25, 2025
+* [Everything I know about good API design](https://www.seangoedecke.com/good-api-design/) - Do not break userspace, versioning is helpful but should be last resort, APIs often reflect quality of the product, use long-lived API keys instead of oAuth for simplicity, use idempotency keys for important functions, use rate limits, use cursor-based pagination, make expensive fields optional.
+* [Cognitive Load is what matters](https://github.com/zakirullin/cognitive-load) - Good code is all about reducing cognitive load. Use deep modules (not shallow), be framework-agnostic, reduce layers of abstraction, don't mistake familiarity for similarity
+
+### Week of August 18, 2025
+
+* [Turning Claude Code Into My Best Design Partner](https://betweentheprompts.com/design-partner) - ask Claude to write a design doc first then iterate. This helps with collaboration, having a source of truth beyond the chat conv, and forcing thought before implementation. 
+
+### Week of August 11, 2025
+
+* [Uber is reading itself for the driverless age - again](https://economist.com/business/2025/08/07/uber-is-readying-itself-for-the-driverless-age-again) - Uber previously sunk $3bn into driverless cars but shut it due to safety risks. Current strategy to partner with self-driving companies. But companies might gain enough brand recognition to have their own app.
+* [unsolicited advice on doing well in AI hackathons](https://x.com/swyx/status/1954780181815763146) - remove doubts of originality, demo live, generalize beyond narrow use case, use humor, good-looking frontends matter, app layer ideas win, novelty wins, judges want inspiration and entertainment.
+* [golpoai](https://video.golpoai.com/) - YC startup for creating whiteboard drawings. Pretty engaging video, though first impression is narrow use case. 
+* [FFmpeg 8.0 adds Whisper support](https://code.ffmpeg.org/FFmpeg/FFmpeg/commit/13ce36fef98a3f4e6d8360c24d6b8434cbb8869b) - Allows transcription of videos. Whisper is a versatile and powerful ASR model developed and open-sourced by OpenAI in September 2022.
+* [Introducing Gemma 3 270M: The compact model for hyper-efficient AI](https://developers.googleblog.com/en/introducing-gemma-3-270m/) - Super small open source model that is meant for fine-tuned custom use cases. 
+* [Persona Vectors](https://www.anthropic.com/research/persona-vectors) - Personalities traits like evil, sycophancy, and hallucination can be extracted as persona vectors in models. This can be used to monitor persona shifts in deployment, mitigate shifts during training (post-training steering lowers intelligence, in-training preventative steering acts like a vaccine), flag problematic training data. 
+* [XBOW Unleashes GPT-5’s Hidden Hacking Power, Doubling Performance](https://xbow.com/blog/gpt-5) - GPT-5 more than doubled ability to do pen-testing with agents. This diverges from OAI's own assessment that cyber capabilities are neutral. No explanation yet on why other than self-promotion of XBOW platform. 
+* [Everything I know about good system design](https://www.seangoedecke.com/good-system-design/) - Good design looks underwhelming. Minimize stateful components. DB schema design is a balance of flexibility. Query DB directly instead of stitching data on app level. Try to read from DB replicas instead of the write node. Use background jobs for lounning tasks. Never cache something without first trying to speed it up because cache is state. Don't overuse events, only use for producer doesn't care about consumer or events are high-volume. Focus on "hot paths" which is the most crtical or handle the most data. Log aggressively during unhappy paths. Use idempotency keys to prevent rerunning old requests. Think about whether to fail-open or fail-closed.  
+* [What's the strongest AI model you can train on a laptop in five minutes?](https://www.seangoedecke.com/model-on-a-mbp/) - 1.8M param GPT-style transformer trained on 20M TinyStories tokens. Validated Chinchilla scaling laws of optimal model size being total training tokens divided by 20. 
+
+### Week of August 4, 2025
+
+* [Agents are not tools](https://discuss.google.dev/t/agents-are-not-tools/192812) - A tool is something that can be asked to take an action, can be awaited for completion of the action, and can report errors. The agent is not a tool, it is a problem solver. The key difference between agent flow and tool flow is that the action is not guaranteed to be completed upon return.
+* [How to write a good design document](https://grantslatton.com/how-to-design-document) - Write one idea per paragraph that flows to each other. Each paragraph can be condensed into one sentence by the reader.
+* [There Are No New Ideas in AI… Only New Datasets](https://blog.jxmo.io/p/there-are-no-new-ideas-in-ai-only) - Many fundamental ideas already exist since decades ago, the main breakthrough is new data (e.g. ImagetNet, Web)
+* [Vibe coding in prod](https://m.youtube.com/watch?v=fHWFF_pnqDk) - Vibe coding is suitable for 'leaf nodes'. Act as a PM for the AI where you validate outputs and tests instead of seeing each line of code.
+* [AI Agents: Less Capability, More Reliability, Please](https://www.sergey.fyi/articles/reliability-vs-capability) - Agents now often have high variance in quality. Reliability, transparency, and predictability are key.
+* [Writes and Write-Notes](https://www.paulgraham.com/writes.html) - Writing is hard. But writing is thinking. More and more people will rely on LLMs to write, causing less and less people to think. 
+* [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) - Important to keep things simple. 3 patterns: augmented LLMs, workflow, agent. Workflows are for predefined problems. Agents are for open-ended problems. Common workflows: Prompt Chaining, Routing, Parallelization, Orchestrator-Workers, Evaluator-Optimizer. 
+* [Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives](https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/) - Perplexity ignores robots.txt/WAF while OpenAI does. Easily verifiable via a new fake domain. Even after getting blocked, crawlers rotate IPs repeatedly. 
+* [Agents or Bots? Making Sense of AI on the Open Web](https://x.com/perplexity_ai/status/1952531537385456019) - Perplexity response to Cloudflare. Core argument is that digital assistants are different from scrapers. Digital assistants are "helpful". Scrapers are "malicious". 
+* [Hire people who give a shit.](https://alexw.substack.com/p/hire) - Hiring people based on whether they care about the company & their own work is important. Find people who can be obsessive. 
+* [Stripe's Payment API: The first 10 years](https://stripe.com/blog/payment-api-design) - Started with simple cards that don't require user action, hence based on Charges and Sources. Use writing hypothetical integration guides as a design tool to validate concepts and prevent pits of failure. A great API product stays out of the developer's way for as long as possible. 
+* [The Top Idea In Your Mind](https://www.paulgraham.com/top.html) - We usually have a top-of-mind idea we drift to. The direction of this idea is not easy to control, but can be changed via what situations we let ourselves get into. Conflict and money can often become top-of-mind (undesirably) but we should acknowledge it and learn to avoid. 
+* [My Lethal Trifecta talk at the Bay Area AI Security Meetup](https://simonwillison.net/2025/Aug/9/bay-area-ai/) - Lethal Trifecta: 1) Access to private data 2) Ability to communicate externally 3) Exposure to untrusted content. Removing one of the legs will help. A solution is [CaMeL](https://simonwillison.net/2025/Apr/11/camel/) which asks LLMs to generate code which in turn has security rules applied. 
