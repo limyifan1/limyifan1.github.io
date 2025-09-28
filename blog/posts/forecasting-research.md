@@ -34,6 +34,8 @@ of the decimal.
 
 For "Crowd Uncertain" questions, the LLM system actually outperforms crowd predictions. 
 
+Fine-tune a LLM on forecast data that outperform the crowd. 
+
 ### [ForecastBench: A Dynamic Benchmark of AI Forecasting Capabilities](https://ar5iv.labs.arxiv.org/html/2409.19839)
 3 types of context provided: zero-shot prompting, scratchpad prompting, and scratchpad prompting with retrieval augmentation. Methods from [Approaching Human-Level Forecasting with Language Models](https://openreview.net/pdf?id=FlcdW7NPRY) were used for scratchpad prompting and retrieval augmentation. 
 
