@@ -1,3 +1,6 @@
+### Week of 28 September 2025
+* [Failing to Understand the Exponential, Again](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - A
+
 ### Week of September 21, 2025
 * [How to stop AI’s “lethal trifecta”](https://www.economist.com/leaders/2025/09/25/how-to-stop-ais-lethal-trifecta) - Building AI apps are more similar to conventional engineers, where uncertainty must be factored in. Overbuilding might be necessary.
 * [Simon Willison's Response to How to stop AI’s “lethal trifecta”](https://simonwillison.net/2025/Sep/26/how-to-stop-ais-lethal-trifecta/) - The article's approach to security is not appropriate. The solution is not overbuilding. It is to prevent even the 1% chance of security vulnerability but cutting of trifecta. The common way is preventing LLMs from trasmitting information back to attacker.
