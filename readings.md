@@ -1,26 +1,4 @@
-### Week of 22 Sep 2025 at 3:10 PM
-* [
-    Failing to Understand the Exponential, Again
-  ](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - Test
-
-### Week of 22 Sep 2025 at 3:09 PM
-* [
-    Failing to Understand the Exponential, Again
-  ](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - Test
-
-### Week of 22 Sep 2025 at 3:08 PM
-* [Failing to Understand the Exponential, Again](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - Test
-
-### Week of 22 Sep 2025 at 3:07 PM
-* [Failing to Understand the Exponential, Again](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - Testing
-
-### Week of 22 Sep 2025 at 3:06 PM
-* [Failing to Understand the Exponential, Again](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - Testing
-
 ### Week of September 22, 2025
-* [
-    Failing to Understand the Exponential, Again
-  ](https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/) - Test
 * [How to stop AI’s “lethal trifecta”](https://www.economist.com/leaders/2025/09/25/how-to-stop-ais-lethal-trifecta) - Building AI apps are more similar to conventional engineers, where uncertainty must be factored in. Overbuilding might be necessary.
 * [Simon Willison's Response to How to stop AI’s “lethal trifecta”](https://simonwillison.net/2025/Sep/26/how-to-stop-ais-lethal-trifecta/) - The article's approach to security is not appropriate. The solution is not overbuilding. It is to prevent even the 1% chance of security vulnerability but cutting of trifecta. The common way is preventing LLMs from trasmitting information back to attacker.
 * [I think “agent” may finally have a widely enough agreed upon definition to be useful jargon now](https://simonwillison.net/2025/Sep/18/agents/) - An LLM agent runs tools in a loop to achieve a goal. Humans differentiate themselves from agents by having accountability.
