@@ -1,4 +1,5 @@
 ### Week of September 29, 2025
+* [https://jina.ai/](https://jina.ai/) - Impressive landing page that has an auto generated api key and immediate runnable demos. The reader also seems useful for llm searches. 
 * [What is "good taste" in software engineering?](https://www.seangoedecke.com/taste/) - Taste is the ability to adopt the set of engineering values that fit your current project. Most bad taste come from inflexibility. 
 
 ### Week of September 22, 2025
