@@ -1,4 +1,5 @@
 ### Week of September 29, 2025
+* [Claude Sonnet 4.5 is probably the “best coding model in the world” (at least for now)](https://simonwillison.net/2025/Sep/29/claude-sonnet-4-5/) - New Claude sonnet 4.5 seems to be the best coding model, better than gpt codex 5. Able to run tools very well within claude's sandboxed env. 
 * [90% | Armin Ronacher's Thoughts and Writings](https://lucumr.pocoo.org/2025/9/29/90-percent/) - Creator of flask has AI write 90% of his code. Drastically improves productivity but must note that you still need to be a good engineer. Helps with refactoring, trying different approaches, cleaning up, research and coding at the same time. 
 * [https://jina.ai/](https://jina.ai/) - Impressive landing page that has an auto generated api key and immediate runnable demos. The reader also seems useful for llm searches. 
 * [What is "good taste" in software engineering?](https://www.seangoedecke.com/taste/) - Taste is the ability to adopt the set of engineering values that fit your current project. Most bad taste come from inflexibility. 
