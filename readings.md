@@ -1,4 +1,5 @@
 ### Week of September 29, 2025
+* [How to Solve Hard Problems](https://sharif.io/solving-hard-problems) - Find similar solved problems and match analogies, Restate the problem in multiple ways, Generalize the solution to an already solved problem, Divide and conquer, Understand systems and principles governing problems
 * [The 28 AI tools I wish existed](https://sharif.io/28-ideas-2025) - Very good wishlist of AI tools 
 * [Claude Sonnet 4.5 is probably the “best coding model in the world” (at least for now)](https://simonwillison.net/2025/Sep/29/claude-sonnet-4-5/) - New Claude sonnet 4.5 seems to be the best coding model, better than gpt codex 5. Able to run tools very well within claude's sandboxed env. 
 * [90% | Armin Ronacher's Thoughts and Writings](https://lucumr.pocoo.org/2025/9/29/90-percent/) - Creator of flask has AI write 90% of his code. Drastically improves productivity but must note that you still need to be a good engineer. Helps with refactoring, trying different approaches, cleaning up, research and coding at the same time. 
