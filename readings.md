@@ -1,4 +1,5 @@
 ### Week of September 29, 2025
+* [Sozofix, AI DIY assistant | Kaggle](https://www.kaggle.com/competitions/banana/writeups/sozofix-ai-diy-assistant) - Creative use of nano banana to generate a step by step how to guide for DIY projects e.g. fixing a shoe. Image for the steps is personalized and realistic. 
 * [How to Solve Hard Problems](https://sharif.io/solving-hard-problems) - Find similar solved problems and match analogies, Restate the problem in multiple ways, Generalize the solution to an already solved problem, Divide and conquer, Understand systems and principles governing problems
 * [The 28 AI tools I wish existed](https://sharif.io/28-ideas-2025) - Very good wishlist of AI tools 
 * [Claude Sonnet 4.5 is probably the “best coding model in the world” (at least for now)](https://simonwillison.net/2025/Sep/29/claude-sonnet-4-5/) - New Claude sonnet 4.5 seems to be the best coding model, better than gpt codex 5. Able to run tools very well within claude's sandboxed env. 
