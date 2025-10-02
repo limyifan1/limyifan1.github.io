@@ -1,4 +1,5 @@
 ### Week of September 29, 2025
+* [Inside Google’s Engineering Culture: the Tech Stack (Part 2)](https://open.substack.com/pub/pragmaticengineer/p/google-part-2?r=7fgmf&utm_medium=ios) - Dive into Google's tech stack and what makes it a tech island
 * [https://x.com/gergelyorosz/status/1972921113471578421?s=12](https://x.com/gergelyorosz/status/1972921113471578421?s=12) - Juniors armed with AI can be immensely productive and companies are starting to recognize that 
 * [Sozofix, AI DIY assistant | Kaggle](https://www.kaggle.com/competitions/banana/writeups/sozofix-ai-diy-assistant) - Creative use of nano banana to generate a step by step how to guide for DIY projects e.g. fixing a shoe. Image for the steps is personalized and realistic. 
 * [How to Solve Hard Problems](https://sharif.io/solving-hard-problems) - Find similar solved problems and match analogies, Restate the problem in multiple ways, Generalize the solution to an already solved problem, Divide and conquer, Understand systems and principles governing problems
