@@ -1,3 +1,6 @@
+### Week of October 6, 2025
+* [Embracing the parallel coding agent lifestyle](https://simonwillison.net/2025/Oct/5/parallel-coding-agents/) - Parallel coding can be good for researching pocs, make notes on code, do small maintenance tasks, clearly specified work,
+
 ### Week of September 29, 2025
 * [Your Eval is More Important Than the Model](https://www.dbreunig.com/2025/01/08/evaluating-llms-as-knowledge-banks.html) - Building an eval dataset can be incredibly important for choosing the right model and for optimizations via prompt or otherwise
 * [Let the Model Write the Prompt](https://www.dbreunig.com/2025/06/10/let-the-model-write-the-prompt.html) - DSPy can define prompt structure in code then use an optimizer to find the ideal prompt. This can lead to drastic improveents in LLM performance. 
