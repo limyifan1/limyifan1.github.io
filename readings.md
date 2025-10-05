@@ -1,4 +1,5 @@
 ### Week of October 6, 2025
+* [Intro to BirdNET-Pi: Eavesdropping on my feathered friends (and how you can, too!)](https://hannahilea.com/blog/birdnet-intro/) - Cool project running bird classification at home via raspberry pi
 * [Embracing the parallel coding agent lifestyle](https://simonwillison.net/2025/Oct/5/parallel-coding-agents/) - Parallel coding can be good for researching pocs, make notes on code, do small maintenance tasks, clearly specified work,
 
 ### Week of September 29, 2025
