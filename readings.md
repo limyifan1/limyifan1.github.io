@@ -1,4 +1,5 @@
 ### Week of October 6, 2025
+* [Introducing the Gemini 2.5 Computer Use model](https://blog.google/technology/google-deepmind/gemini-computer-use-model/) - Computer use fine tuned model. Frontend using browserbase. 
 * [Deloitte to pay money back to Albanese government after using AI in $440,000 report | Australian politics | The Guardian](https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report) - Errors found in consulting report with wrong references. Partial refunds made over errors. 
 * [Intro to BirdNET-Pi: Eavesdropping on my feathered friends (and how you can, too!)](https://hannahilea.com/blog/birdnet-intro/) - Cool project running bird classification at home via raspberry pi
 * [Embracing the parallel coding agent lifestyle](https://simonwillison.net/2025/Oct/5/parallel-coding-agents/) - Parallel coding can be good for researching pocs, make notes on code, do small maintenance tasks, clearly specified work,
