@@ -1,4 +1,5 @@
 ### Week of October 6, 2025
+* [Examples are the best documentation | exotext](https://rakhim.exotext.com/examples-are-the-best-documentation) - Documentation without examples are often hard to read and assumes base knowledge. 
 * [My Approach to Building Large Technical Projects – Mitchell Hashimoto](https://mitchellh.com/writing/building-large-technical-projects) - A good way to stay motivated on a large project is to break it down into smaller demoable parts and use them as milestones for motivation. 
 * [Introducing the Gemini 2.5 Computer Use model](https://blog.google/technology/google-deepmind/gemini-computer-use-model/) - Computer use fine tuned model. Frontend using browserbase. 
 * [Deloitte to pay money back to Albanese government after using AI in $440,000 report | Australian politics | The Guardian](https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report) - Errors found in consulting report with wrong references. Partial refunds made over errors. 
