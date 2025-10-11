@@ -1,4 +1,6 @@
 ### Week of October 6, 2025
+* [Vibing a Non-Trivial Ghostty Feature – Mitchell Hashimoto](https://mitchellh.com/writing/non-trivial-vibing) - Vibing a Non-Trivial Ghostty Feature – Mitchell Hashimoto
+Creating a comprehensive plan first is really important, AI is good for zero to one, sometimes AI go into slop zone where you'll need to step in, adding documentation really helps agents for future steps, clean-up is important for forcing yourself to understand code, adding scaffolding and TODOs then letting AI fill it up is really effective, ask the agent at the end what else to add
 * [Examples are the best documentation | exotext](https://rakhim.exotext.com/examples-are-the-best-documentation) - Documentation without examples are often hard to read and assumes base knowledge. 
 * [My Approach to Building Large Technical Projects – Mitchell Hashimoto](https://mitchellh.com/writing/building-large-technical-projects) - A good way to stay motivated on a large project is to break it down into smaller demoable parts and use them as milestones for motivation. 
 * [Introducing the Gemini 2.5 Computer Use model](https://blog.google/technology/google-deepmind/gemini-computer-use-model/) - Computer use fine tuned model. Frontend using browserbase. 
