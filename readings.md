@@ -1,4 +1,5 @@
 ### Week of October 13, 2025
+* [How well can large language models predict the future?](https://forecastingresearch.substack.com/p/ai-llm-forecasting-model-forecastbench-benchmark) - At the current rate of improvement, LLMs would match superforecaster performance by late 2026. Prediction markets are already very accurate, so giving GPT-4.5 access to market values led to good scores due to median deviation of 0.5 percentage points. 
 * [AdapTive-LeArning Speculator System (ATLAS): A New Paradigm in LLM Inference via Runtime-Learning Accelerators](https://www.together.ai/blog/adaptive-learning-speculator-system-atlas) - Adaptive learning speculator adapts to the input tokens, allowing higher number of lookahead tokens while having high acceptance rates. This outperforms static speculators that might not perform well for changing use cases. 
 
 ### Week of October 6, 2025
