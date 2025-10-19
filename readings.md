@@ -1,3 +1,6 @@
+### Week of October 20, 2025
+* [The Case for the Return of Fine-Tuning — SOTA - AI Innovation Community](https://welovesota.com/article/the-case-for-the-return-of-fine-tuning) - Fine-tuning might be back due to ease, slowing pace of models, ownership of open source models, limit to prompting reaching
+
 ### Week of October 13, 2025
 * [The algorithm will see you now - Works in Progress Magazine](https://worksinprogress.co/issue/the-algorithm-will-see-you-now/) - Radiology jobs have increased despite predictions of automation. The job has wide range of responsibilities, AI does not do well across different hospitals, stakes are high. Some jobs might be like radiology, some are easily automatable e.g. content moderation
 * [How well can large language models predict the future?](https://forecastingresearch.substack.com/p/ai-llm-forecasting-model-forecastbench-benchmark) - At the current rate of improvement, LLMs would match superforecaster performance by late 2026. Prediction markets are already very accurate, so giving GPT-4.5 access to market values led to good scores due to median deviation of 0.5 percentage points. 
