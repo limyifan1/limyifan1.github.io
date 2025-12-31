@@ -1,3 +1,6 @@
+### Week of December 29, 2025
+* [Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus) - KV-cache optimization, logit masking, file-based memory, goal recitation, and learning from failed actions
+
 ### Week of October 20, 2025
 * [The Case for the Return of Fine-Tuning — SOTA - AI Innovation Community](https://welovesota.com/article/the-case-for-the-return-of-fine-tuning) - Fine-tuning might be back due to ease, slowing pace of models, ownership of open source models, limit to prompting reaching
 
