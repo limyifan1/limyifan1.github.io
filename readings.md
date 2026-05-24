@@ -1,3 +1,6 @@
+### Week of May 25, 2026
+* [DeepSeek-V4-Flash means LLM steering is interesting again](https://www.seangoedecke.com/steering-vectors/) - Regarding steering vectors for DeepSeek V4 Flash
+
 ### Week of December 29, 2025
 * [Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus) - KV-cache optimization, logit masking, file-based memory, goal recitation, and learning from failed actions
 
